@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background: url('../images/memphis-mini.png');
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* ///////// MIXED CONTENT /////////// */
+
+a {
+    text-decoration: none;
+}
+
+.header-div, .about-me, .contact, .portfolio {
+    margin: auto;
+    width: 960px;
+}
+
+ul a, p, label {
+    color: #777777;
+    font-size: 18px;
+}
+
+/* /////////// HEADER //////////// */
+
+
+header {
+    border-bottom: solid #cccccc 2px;
+    background: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h1 {
+    display: inline-block;
+}
+
+h1 a {
+    padding: 22px;
+
+}
+
+h1 a:hover {
+    background: #3e8e8a
+
+}
+
+nav {
+    float: right;
+}
+
+.nav-bar :nth-last-child(n+2){
+    border-right: solid #777 1px;
+}
+
+ul {
+    margin: 30px 0;
+    float: left;
+}
+
+ul li {
+    float: left;
+    list-style-type: none;
+}
+
+ul a {
+    padding: 10px 20px;
+}
+
+ul a:hover {
+    color: #3e8e8a;
+}
+
+/* ///////// MIXED MAIN CONTENT /////////// */
+
+h2 {
+    font-size: 30px;
+    color: #4aaaa5;
+    margin: 25px;
+}
+
+.bottom-border {
+    background: #dddddd;
+    height: 3px;
+    margin: 0 25px;
+}
+
+h1 a, button, .image-banner {
+    color: #fff;
+    background: #4aaaa5;
+}
+
+.about-me, .contact, .portfolio {
+    background: #ffffff;
+    border: solid #dddddd 1px;
+    margin: 40px auto;
+}
+
+/* ///////// ABOUT ME /////////// */
+
+.about-me-container img {
+    float: left;
+    margin: 0 25px;
+    height: 200px;
+}
+
+.about-me-container p {
+    margin: 25px;
+    line-height: 1.5;
+}
+
+/* ///////// CONTACT /////////// */
+
+.portfolio-content {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.contact-container {
+    margin: 25px auto;
+}
+
+input, textarea {
+    width: 888px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    border: solid #cccccc 1px;
+}
+
+label {
+    width: 95%;
+    display: block;
+    margin: 20px auto 5px;
+}
+
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 25px 0 0 25px;
+}
+
+button:hover {
+    cursor: pointer;
+    background: #3e8e8a;
+}
+
+/* ///////// PORTFOLIO /////////// */
+
+.portfolio {
+    margin-bottom: 100px;
+}
+
+.image-container {
+    margin: 25px;
+    position: relative;
+    float: left;
+    text-align: center;
+}
+
+.image-container img {
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 0 5px black;
+}
+
+.image-banner {
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    padding: 10px 0;
+}
+
+/* ///////// FOOTER /////////// */
+
+footer {
+    position: fixed;
+    border-top: solid #4aaaa5 8px;
+    background: #666666;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    padding-top: 20px;
+    font-size: 12px;
+    color: #c4c4c4;
+    margin: 10px 0 5px;
+}
